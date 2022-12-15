@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="calculateB" layoutX="505.0" layoutY="178.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="163.0" text="Обрахувати" />
+      <TextField fx:id="a1" layoutX="82.0" layoutY="70.0" />
+      <TextField fx:id="a2" layoutX="82.0" layoutY="104.0" />
+      <TextField fx:id="a5" layoutX="518.0" layoutY="70.0" />
+      <TextField fx:id="a4" layoutX="304.0" layoutY="104.0" />
+      <TextField fx:id="a3" layoutX="304.0" layoutY="70.0" />
+      <Label layoutX="53.0" layoutY="74.0" text="A1" />
+      <Label layoutX="53.0" layoutY="108.0" text="A2" />
+      <Label layoutX="279.0" layoutY="74.0" text="A3" />
+      <Label layoutX="279.0" layoutY="108.0" text="A4" />
+      <Label layoutX="497.0" layoutY="74.0" text="A5" />
+      <Label layoutX="53.0" layoutY="29.0" prefHeight="17.0" prefWidth="423.0" text="Значення інтенсивності відмов системи:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="144.0" prefHeight="17.0" prefWidth="423.0" text="Межі інтегрування:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="s1" layoutX="82.0" layoutY="178.0" />
+      <TextField fx:id="s2" layoutX="304.0" layoutY="178.0" />
+      <Label layoutX="53.0" layoutY="182.0" text="S" />
+      <Label layoutX="279.0" layoutY="182.0" text="F" />
+      <TextArea fx:id="answerTextArea" layoutX="53.0" layoutY="218.0" prefHeight="455.0" prefWidth="618.0" />
+   </children>
+</AnchorPane>
